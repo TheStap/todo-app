@@ -1,0 +1,18 @@
+.todo {
+  // duplicating styles to override default browse style, ofc better use normalize
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  &__label {
+    cursor: pointer;
+  }
+
+  &__checkbox {
+    cursor: pointer;
+  }
+
+  &--done {
+    text-decoration: line-through;
+  }
+}

@@ -1,0 +1,6 @@
+<div class="todo" [ngClass]="{'todo--done' : todo.done}">
+    <input class="todo__checkbox" type="checkbox" [attr.id]="todo.index" [(ngModel)]="todo.done">
+    <label [attr.for]="todo.index" class="todo__label">
+        {{todo?.text}}
+    </label>
+</div>
